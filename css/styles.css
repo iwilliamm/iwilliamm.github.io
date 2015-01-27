@@ -8,6 +8,19 @@ body {
     padding: 0;
     background-color: white;
 }
+#meImg{
+	width: 400px;
+	height: 450px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://link-to-your/image.jpg) no-repeat;
+	opacity: 30;
+}
+h6{
+
+	text-align: center;
+}
 
 	h1{
 		color: pink;
