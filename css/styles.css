@@ -6,7 +6,7 @@ CSS-Styles
 body {
     margin: 0;
     padding: 0;
-    background-color: white;
+ background: linear-gradient(to bottom left, white,yellow);
 }
 #meImg{
 	width: 400px;
@@ -32,15 +32,18 @@ h6{
 	color:blue;
     font-family:verdana;
     font-size:100%;
+
 }
 .Home{
 
 	text-align: center;
 	color: gray;
+	list-style-type:none
 }
 .Contact{
 	text-align: center;
 	color: gray;
+	list-style-type:none
 }
 
 #bio{
