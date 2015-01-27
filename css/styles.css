@@ -3,8 +3,17 @@ Guillermo Contreras-Mendoza
 CSS-Styles
 
 */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
 
 	h1{
 		color: pink;
 		outline-color: green;
+}
+
+#bio{
+	font-size: 50px;
 }
