@@ -6,12 +6,21 @@ CSS-Styles
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: white;
 }
 
 	h1{
 		color: pink;
 		outline-color: green;
+}
+.Home{
+
+	text-align: center;
+	color: gray;
+}
+.Contact{
+	text-align: center;
+	color: gray;
 }
 
 #bio{
