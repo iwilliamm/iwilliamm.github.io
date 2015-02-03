@@ -1,53 +1,59 @@
 /*
-Guillermo Contreras-Mendoza
-CSS-Styles
-
+Global
 */
-body {
-    margin: 0;
-    padding: 0;
- background: linear-gradient(to bottom left, white,yellow);
-}
-#meImg{
-	width: 400px;
-	height: 450px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(http://link-to-your/image.jpg) no-repeat;
-	opacity: 30;
-}
 
-h6{
 
-	text-align: center;
-}
+/*
+header
+*/
 
-	h1{
-		color: pink;
-		outline-color: green;
-}
 
-#bioMe {
-	color:blue;
-    font-family:verdana;
-    font-size:100%;
-
-}
-.Home{
-
-	text-align: center;
-	color: gray;
-	list-style-type:none
-}
-.Contact{
-	text-align: center;
-	color: gray;
-	list-style-type:none
-}
-
-#bio{
-	font-size: 50px;
-	text-align: center;
+/*
+Body - Nav
+*/
+html {
+	background: url(../img/background.jpg) no-repeat;
+	height: 100vh;
 	
 }
+
+
+body{
+	display: inline;
+
+}
+
+
+a:hover{
+		color:blue;
+}
+
+.navBar{
+	margin: 0;
+	padding: 0;
+}
+.supNav{
+	width: 100%;
+	display: block;
+	text-align: center;
+	border-style: solid;
+	border-color: gray;
+	background-color: purple;
+}
+
+ .menuItems{
+ 	text-align: center;
+ 	    list-style-type: none;
+ 	    display: inline;
+ 	    width: 60px;
+
+ }
+
+
+
+/*
+Footer
+*/
+
+
+
