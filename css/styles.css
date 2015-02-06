@@ -12,14 +12,12 @@ header
 Body - Nav
 */
 html {
-	background: url(../img/background.jpg) no-repeat;
-	height: 100vh;
-	
+
 }
 
 
 body{
-	display: inline;
+	
 
 }
 
@@ -54,6 +52,73 @@ a:hover{
 /*
 Footer
 */
+
+/*StyleTile*/
+
+/* Layout for Style Tile
+Feel free to change */
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+
+}
+html body .style-tile{
+		font-family: 'Raleway', sans-serif;
+}
+
+/* Set Your Own Typography */
+
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Clearfix - Oo Not Remove */
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+
+/*Color Pallete*/
+ .style-tile .color-1{
+	background-color: #61EC5E;
+}
+ .style-tile .color-2{
+	background-color: #A5FC9E;
+}
+ .style-tile .color-3{
+	background-color: #FFFEFF;
+}
+.pattern-1{
+		background: url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffff00&noise=b5b5b5&density=18&opacity=35);
+
+}
+
+.pattern-2{
+background-color: #000000;
+background-image: url(http://www.transparenttextures.com/patterns/black-linen-2.png);
+
+}
+.pattern-3{
+background-color: #000000;
+background-image: url(http://www.transparenttextures.com/patterns/clean-gray-paper.png);
+}
+
+
+
 
 
 
