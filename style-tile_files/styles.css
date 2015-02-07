@@ -12,8 +12,6 @@ header
 Body - Nav
 */
 html {
-	background-image: url(http://www.transparenttextures.com/patterns/black-linen-2.png);
-
 
 }
 
@@ -38,7 +36,7 @@ a:hover{
 	text-align: center;
 	border-style: solid;
 	border-color: gray;
-	background-color: rgba(128, 0, 128, 0.14);
+	background-color: purple;
 }
 
  .menuItems{
