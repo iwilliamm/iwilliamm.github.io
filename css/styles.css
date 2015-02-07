@@ -38,7 +38,7 @@ a:hover{
 	text-align: center;
 	border-style: solid;
 	border-color: gray;
-	background-color: purple;
+	background-color: rgba(128, 0, 128, 0.14);
 }
 
  .menuItems{
