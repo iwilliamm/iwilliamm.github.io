@@ -1,19 +1,16 @@
-
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600);
 
-
-/*________________________________________*
-Body setting for the background color
-__________________________________________*/
-body {
-  background: #A7D5CD;
+body, html {
   width: 100%;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
-
-.wrapper {
+body {
+  background: #bbcccc;
+  /* */
+}
+.wrap {
   width: 300px;
   margin: 0 auto;
   margin-top: 30px;
@@ -31,7 +28,7 @@ input#toggle:checked ~ label {
   background: #42423E;
 }
 input#toggle:checked ~ ul {
-  display: block;
+  display: inline;
   opacity: 1;
   animation-play-state: running; 
 }
@@ -45,20 +42,19 @@ ul {
 }
 label, li {
   width: 300px;
-  background: #DF826B;
+  background: #ff33ff;
   display: block;
   padding: 15px 20px;
   cursor: pointer; 
 }
 label {
-  box-shadow: 0 6px 10px -6px #4F4F4B;
+  box-shadow: 0 6px 10px -6px #ff33ff;
 }
 li {
-  border-bottom: 3px solid #42423E;
+  border-bottom: 3px solid #ff33ff;
 }
 li:hover, label:hover {
-  background: #42423E;
-  animation: fade .7s linear;
+  background: #ff33ff;
 }
 ul:before {
   display: block;
@@ -72,7 +68,7 @@ ul:before {
 }
 li:last-child {
   border: none;
-  box-shadow: 0 6px 10px -6px #4F4F4B;
+  box-shadow: 0 6px 10px -6px #ff33ff;
 }
 a, span, h1 {
   color: #FFFFFF;
