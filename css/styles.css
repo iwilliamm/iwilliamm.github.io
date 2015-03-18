@@ -7,7 +7,7 @@ body, html {
   font-weight: 700;
 }
 body {
-  background: #bbcccc;
+  background: #FBF7FF;
   /* */
 }
 .wrap {
@@ -42,19 +42,19 @@ ul {
 }
 label, li {
   width: 300px;
-  background: #ff33ff;
+  background: #B89F62;
   display: block;
   padding: 15px 20px;
   cursor: pointer; 
 }
 label {
-  box-shadow: 0 6px 10px -6px #ff33ff;
+  box-shadow: 0 6px 10px -6px #B89F62;
 }
 li {
-  border-bottom: 3px solid #ff33ff;
+  border-bottom: 3px solid #B89F62;
 }
 li:hover, label:hover {
-  background: #ff33ff;
+  background: #B89F62;
 }
 ul:before {
   display: block;
@@ -68,7 +68,7 @@ ul:before {
 }
 li:last-child {
   border: none;
-  box-shadow: 0 6px 10px -6px #ff33ff;
+  box-shadow: 0 6px 10px -6px #B89F62;
 }
 a, span, h1 {
   color: #FFFFFF;
@@ -84,6 +84,15 @@ h1{
   text-transform: uppercase;
   text-align: center;
   margin: 0 0 10px 40px;
+  color: #1E2A4D;
+}
+
+h1#name{
+  font-size: 54px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 10px 40px;
+  color: #1E2A4D;
 }
 @keyframes fade {
   0% { opacity: 0; }
@@ -98,5 +107,73 @@ h1{
 }
 img{
 border-radius: 10px;
+width: 100%;
+}
+
+
+@media (max-width: 720px) {
+img{  border-radius: 10px;
+  -o-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+}
+/*Style Tile*/
+section {
+  margin: 20px  auto;
+}
+.container {
+  margin-top: 6em;
+  border-radius: 2em;
+  background: #f3f3f3;
+  padding: 5em;
+  background-color: #EDEEF0;
+}
+.color-1,
+.color-2,
+.color-3,.color-4,.color-5,.texture-1,.texture-2,.texture-3{
+  border: 4px solid #000;
+  float: left;
+  margin: auto 10px;
+  height: 80px;
+  width: 80px;
+}
+.color-1{
+    background-color: #ED2E3A;
+
+} 
+.color-2{
+    background-color: #1E2844;
+
+}
+.color-3{
+    background-color: #FBF7FF;
+
+}
+.color-4{
+    background-color: #B89F62;
+
+}  
+.color-5{
+    background-color: #2B302E;
+
+} 
+.texture-1{
+background-color: #fbf7ff;
+background-image: url(http://www.transparenttextures.com/patterns/black-twill.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+.texture-2{
+background-color: #b89f62;
+background-image: url(http://www.transparenttextures.com/patterns/crissxcross.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.texture-3{
+background-color: #fbf7ff;
+background-image: url(http://www.transparenttextures.com/patterns/black-twill.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
 }
