@@ -177,3 +177,99 @@ background-image: url(http://www.transparenttextures.com/patterns/black-twill.pn
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
 }
+
+/*Gallery*/
+
+
+/* Layout of gallery items*/
+figure { 
+  background: #fff;
+  border-bottom: 20px solid #fff;
+  border-radius: 4px;
+  box-shadow: 2px 2px 15px #696969;
+  padding: 10px;
+  
+  /* layout */
+  float: left;
+  height: 150px;
+  margin: 40px;
+  width: 150px;
+  
+  /* set relative parent for each time*/
+  position: relative;
+}
+
+/* Header */
+figure h5 {
+  background: #B89F62;
+  color: #fff;
+  padding: 5px;
+  text-align: right;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  
+  /* absolute position headings */
+  /* absolute Positioning also  */
+  position: relitive;
+  top: 0;
+  left: -40px;
+  /* 
+     * absolutely positioned elements only as wide as content
+     * optionally set widths
+  */
+  width: 100%;
+ /* bring to front */ 
+  z-index: 2;
+}
+
+/* Caption Container */
+.thumbnail {
+
+  /* parent for caption */ 
+  position: relative;
+  /* 
+    * set to any dimensions
+    * matched to size of image in this case
+  */   
+  height: 150px;
+  width: 150px;
+  /* hide overflowing content */ 
+  overflow: hidden;
+}
+
+/* Caption - First Frame */
+.thumbnail p {
+  background: rgba(255,255,255,.75);
+  font-size: .75em;
+  font-style: italic;
+  padding: .25em;
+  text-align: center;
+  
+  position: absolute;
+  margin: 0;
+  /* value is height of image */   
+  bottom: 0;
+  opacity: 0;
+}
+
+/* Caption - Last Frame */
+.thumbnail:hover p {
+   -webkit-animation: slideInUp 1s;
+}
+
+  @-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
