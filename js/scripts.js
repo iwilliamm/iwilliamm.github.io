@@ -1,0 +1,3 @@
+// My Scripts
+
+$('video').mediaelementplayer();
